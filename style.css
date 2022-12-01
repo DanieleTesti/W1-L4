@@ -3,15 +3,16 @@
 body {
   font-family: "Poppins", sans-serif;
   background-image: url(/assets/img/sfondo.png);
-  background-size: cover;
-  background-position-y: bottom;
-  background-color: white;
+  /* background-color: red; */
+  /* background-size: cover;
+  background-position-y: bottom; */
   width: 90%;
   margin: auto;
 }
 
 header {
   text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 main {
@@ -40,6 +41,8 @@ td {
 legend {
   text-align: center;
   font-size: 20px;
+  /* padding-bottom: 0.5em; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -66,7 +69,9 @@ h4 {
 
 p {
   font-size: 19px;
-  /* padding: 1em; */
+  padding-top: 1em;
+  /* padding-bottom: 1em; */
+  line-height: normal;
 }
 
 div > p {
@@ -75,28 +80,27 @@ div > p {
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
 ul {
   padding-left: 1em;
-  line-height: 25px;
+  line-height: normal;
 }
 
 ol {
   padding: 1.2em;
-  line-height: 25px;
+  line-height: normal;
+}
+
+li {
+  line-height: normal;
 }
 
 .video {
   border-radius: 10%;
-  align: center;
-}
-
-.banner1 {
-  text-align: center;
-  background-color: beige;
+  width: 90%;
+  margin: 1em;
 }
 
 .top-table {
@@ -120,4 +124,43 @@ ol {
 
 .description {
   padding: 1em;
+}
+
+.menu {
+  color: white;
+}
+
+.banner1 {
+  padding: 1em;
+  background-color: #c0bfbf;
+}
+
+.banner2 {
+  padding: 1em;
+  background-color: #c0bfbf;
+}
+
+.banner3 {
+  padding: 1em;
+  background-color: #c0bfbf;
+  border: black;
+}
+
+.banner4 {
+  padding: 1em;
+  background-color: #c0bfbf;
+  border: black;
+}
+
+.data1 > p {
+  text-align: right;
+  font-size: 15px;
+}
+
+.articoli {
+  text-align: center;
+}
+
+span {
+  border-color: red;
 }
