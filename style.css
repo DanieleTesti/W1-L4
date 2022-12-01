@@ -13,6 +13,7 @@ body {
 header {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 3.5px 3.5px #666666;
 }
 
 main {
@@ -21,6 +22,19 @@ main {
   margin: auto;
   background-color: white;
   padding: 1em;
+  border-style: ridge;
+  box-shadow: 3.5px 3.5px #666666;
+}
+
+footer {
+  width: 90%;
+  margin: auto;
+  background-image: linear-gradient(180deg, #1a7088, #154555);
+  padding: 1em;
+  padding-top: 0em;
+  text-align: center;
+  color: white;
+  box-shadow: 3.5px 3.5px #666666;
 }
 
 table {
@@ -79,10 +93,6 @@ div > p {
   /* padding: 1em; */
 }
 
-a {
-  text-decoration: none;
-}
-
 ul {
   padding-left: 1em;
   line-height: normal;
@@ -115,6 +125,7 @@ li {
 
 .menu {
   list-style-type: none;
+  text-decoration: none;
 }
 
 .scrittore {
@@ -130,25 +141,32 @@ li {
   color: white;
 }
 
+.email {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: dotted;
+}
+
 .banner1 {
   padding: 1em;
-  background-color: #c0bfbf;
+  background-color: #dfdede;
 }
 
 .banner2 {
   padding: 1em;
-  background-color: #c0bfbf;
+  background-color: #dfdede;
 }
 
 .banner3 {
   padding: 1em;
-  background-color: #c0bfbf;
+  background-color: #dfdede;
   border: black;
 }
 
 .banner4 {
   padding: 1em;
-  background-color: #c0bfbf;
+  background-color: #dfdede;
   border: black;
 }
 
@@ -161,6 +179,6 @@ li {
   text-align: center;
 }
 
-span {
-  border-color: red;
+.iscrizione {
+  text-align: center;
 }
