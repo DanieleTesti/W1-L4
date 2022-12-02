@@ -38,18 +38,22 @@ footer {
 }
 
 table {
-  border: 2px solid black;
+  border-bottom: 1px solid #ddd;
   width: 100%;
   border-collapse: collapse;
   align-items: center;
 }
 th {
-  border: 1px;
-  text-align: center;
+  /* border-bottom: 1px solid #ddd;
+  text-align: center; */
+  padding: 1.5em;
+  background: navy;
+  color: #fff;
 }
 td {
-  border: 1px solid black;
+  border-bottom: 1px solid #ddd;
   text-align: center;
+  padding: 1.5em;
 }
 
 legend {
